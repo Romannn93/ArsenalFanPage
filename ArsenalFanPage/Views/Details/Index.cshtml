@@ -1,0 +1,99 @@
+﻿@model DetailsPlayer
+
+@*<input hidden asp-for="PlayerId"/>*@
+<div class="card container pt-4">
+	<div class="card-header">
+		<div class="row">
+			<div class="col-12">
+				<h1>@Model.Player.Name</h1>
+			</div>
+		</div>
+		<div class="row align-items-center mt-4">
+			<img src="@Model.Player.ImageURL" width="100%"/>
+		</div>
+	</div>
+	<div class="card-info">
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<div class="row body-header">
+					<div class="col-12">
+						<div class="mt-5 header-info">
+							<h2>Player Profile</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row body-info">
+					<div class="col-3 body-info-headers">
+						<div class="mt-4"><h3>Name</h3></div>
+					</div>
+					<div class="col-2">
+					</div>
+					<div class="col-7">
+						<div class="mt-4 text-muted"><h3>@Model.Player.Name</h3></div>
+					</div>
+				</div>
+				<div class="row body-info">
+					<div class="col-3 body-info-headers">
+						<div class="mt-4"><h3>Position</h3></div>
+					</div>
+					<div class="col-2">
+					</div>
+					<div class="col-7">
+						<div class="mt-4 text-muted"><h3>@Model.Player.Position</h3></div>
+					</div>
+				</div>
+				<div class="row body-info">
+					<div class="col-3 body-info-headers">
+						<div class="mt-4"><h3>Born</h3></div>
+					</div>
+					<div class="col-2">
+					</div>
+					<div class="col-7">
+						<div class="mt-4 text-muted"><h3>@Model.Player.DateOfBirth</h3></div>
+					</div>
+				</div>
+				<div class="row body-info">
+					<div class="col-3 body-info-headers">
+						<div class="mt-4"><h3>Previous Clubs</h3></div>
+					</div>
+					<div class="col-2">
+					</div>
+					<div class="col-7">
+						<div class="mt-4 text-muted"><h3>@Model.Player.PreviousClubs</h3></div>
+					</div>
+				</div>
+				<div class="row body-info">
+					<div class="col-3 body-info-headers">
+						<div class="mt-4"><h3>Twitter Link</h3></div>
+					</div>
+					<div class="col-2">
+					</div>
+					<div class="col-7">
+						<div class="mt-4 text-muted"><h3>@Model.Player.TwitterLink</h3></div>
+					</div>
+				</div>
+				<div class="mt-5 row body-descr">
+					<p style="font-size: 25px">@Model.Player.Description</p>
+				</div>
+				<div class="row">
+					<div col-2>
+						<a class="btn btn-primary form-control mt-2" style="height:50px;" asp-controller="Home" asp-action="Index"><h3>Home</h3></a>
+					</div>
+					<div col-2>
+
+					</div>
+					<div col-2>
+						<a class="btn btn-primary form-control  mt-2" style="height:50px;" asp-controller="Team" asp-action="Index"><h3>Team</h3></a>
+					</div>
+					<div col-1>
+
+					</div>
+					<div col-2>
+						<a class="btn btn-primary form-control  mt-2" style="height:50px;" asp-controller="MatchList" asp-action="Index"><h3>Matches</h3></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

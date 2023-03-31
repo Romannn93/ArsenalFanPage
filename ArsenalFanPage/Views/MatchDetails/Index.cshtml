@@ -1,0 +1,25 @@
+﻿@model DetailsMatch
+
+<div class="card-header mb-4 col-12 mt-5">
+				<div class="row">
+					<div class="d-flex justify-content-center">
+						<div class="p-2 text-dark">@Model.Match.Scorers  |  @Model.Match.Stadium</div>
+						<div class="text-dark p-2">@Model.Match.League</div>
+					</div>
+				</div>
+				<div class="row text-dark">
+					<div class="d-flex justify-content-between">
+						<div>
+							<img src="@Model.Match.LogoTeam1" width="100%"/>
+						</div>
+						<div style="font-size: 25px">
+							<a asp-controller="MatchDetails" asp-action="Index" style="font-size: 20px" class="btn btn-light form-control" asp-route-playerId="@Model.Match.Id">
+								@Model.Match.Team1 &nbsp;- &nbsp;@Model.Match.Team2
+							</a>
+						</div>
+						<div>
+							<img src="@Model.Match.LogoTeam2" width="100%"/>
+						</div>
+					</div>
+				</div>
+</div>

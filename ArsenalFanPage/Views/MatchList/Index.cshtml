@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Match>
+
+<div class="pb-3 row">
+	@foreach(var match in Model)
+	{
+		@*<div class=" row">*@
+			<div class="card-header mb-4 col-12 mt-5">
+				<div class="row">
+					<div class="d-flex justify-content-center">
+						<div class="p-2 text-dark">@match.DateTime  |  @match.Stadium</div>
+						<div class="text-dark p-2">@match.League</div>
+					</div>
+				</div>
+				<div class="row text-dark">
+					<div class="d-flex justify-content-between">
+						<div>
+							<img src="@match.LogoTeam1" width="100%"/>
+						</div>
+						<div style="font-size: 25px">
+							<a asp-controller="MatchDetails" asp-action="Index" style="font-size: 20px" class="btn btn-light form-control" asp-route-playerId="@match.Id">
+								@match.Team1 &nbsp;- &nbsp;@match.Team2
+							</a>
+						</div>
+						<div>
+							<img src="@match.LogoTeam2" width="100%"/>
+						</div>
+					</div>
+				</div>
+				@*<div class="row text-white">
+					<div class="col-1">
+						<img src="@match.LogoTeam1"/>
+					</div>
+					<div class="col-3">
+					</div>
+					<div class="col-4" style="font-size: 25px">
+						@match.Team1 - @match.Team2
+					</div>
+					<div class="col-3">
+					</div>
+					<div class="col-1">
+						<img src="@match.LogoTeam2"/>
+					</div>
+				</div>*@
+			</div>
+		@*</div>*@
+	}
+</div>

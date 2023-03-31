@@ -1,0 +1,76 @@
+﻿@model Match
+
+<form method="post" asp-action="Edit" enctype="multipart/form-data">
+
+	<div class="row">
+		<div class="col-10">
+			<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Edit a Match</h2>
+			<hr />
+		</div>
+		@*<div asp-validation-summary="All"></div>*@
+		<div class="mb-3">
+			<label asp-for="Team1"></label>
+			<input asp-for="Team1" class="form-control" />
+			<span asp-validation-for="Team1" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Team2"></label>
+			<input asp-for="Team2" class="form-control" />
+			<span asp-validation-for="Team2" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="LogoTeam1"></label>
+			<input type="file" id="uploadBox" name="file1" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="LogoTeam2"></label>
+			<input type="file" id="uploadBox" name="file2" class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="DateTime"></label>
+			<input asp-for="DateTime" class="form-control" />
+			<span asp-validation-for="DateTime" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Stadium"></label>
+			<input asp-for="Stadium" class="form-control" />
+			<span asp-validation-for="Stadium" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Score"></label>
+			<input asp-for="Score" class="form-control" />
+			<span asp-validation-for="Score" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Scorers"></label>
+			<input asp-for="Scorers" class="form-control" />
+			<span asp-validation-for="Scorers" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="League"></label>
+			<input asp-for="League" class="form-control" />
+			<span asp-validation-for="League" class="text-danger"></span>
+		</div>
+		<button type="submit" class="btn btn-primary" style="width: 150px">Update</button>
+		<a asp-controller="Match" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+		</div>
+		<div class="col-2">
+			<img src="@Model.LogoTeam1"
+			width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9"/>
+			<img src="@Model.LogoTeam2" class="pt-3"
+			width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9"/>
+		</div>
+	</div>
+
+</form>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}

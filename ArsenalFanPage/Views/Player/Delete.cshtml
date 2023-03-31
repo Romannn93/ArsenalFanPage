@@ -1,0 +1,50 @@
+﻿@model Player
+
+<form method="post" asp-action="Delete">
+	<input asp-for="Id" hidden />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Delete a Player</h2>
+			<hr />
+		</div>
+		@*<div asp-validation-summary="All"></div>*@
+		<div class="mb-3">
+			<label asp-for="Name"></label>
+			<input asp-for="Name" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="DateOfBirth"></label>
+			<input asp-for="DateOfBirth" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Position"></label>
+			<input asp-for="Position" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="PreviousClubs"></label>
+			<input asp-for="PreviousClubs" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="TwitterLink"></label>
+			<input asp-for="TwitterLink" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="Description"></label>
+			<input asp-for="Description" disabled class="form-control" />
+		</div>
+		<div class="mb-3">
+			<label asp-for="ImageURL"></label>
+			<input asp-for="ImageURL" disabled class="form-control" />
+		</div>
+		<button type="submit" class="btn btn-primary" style="width: 150px">Delete</button>
+		<a asp-controller="Player" asp-action="Index" class="btn btn-secondary" style="width:150px">
+			Back to List
+		</a>
+	</div>
+</form>
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
