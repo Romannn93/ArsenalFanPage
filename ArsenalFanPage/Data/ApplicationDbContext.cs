@@ -13,5 +13,9 @@ namespace ArsenalFanPage.Data
         public DbSet<Match> Matches { get; set; }
         public DbSet<DetailsPlayer> DetailsPlayers { get; set; }
 		public DbSet<DetailsMatch> DetailsMatch { get; set; }
+		public DbSet<History> Histories { get; set; }
+		public DbSet<DetailsHistory> DetailsHistories{ get; set; }
+        public DbSet<News> News { get; set; }
+		public DbSet<DetailsNews> DetailsNews { get; set; }
 	}
 }

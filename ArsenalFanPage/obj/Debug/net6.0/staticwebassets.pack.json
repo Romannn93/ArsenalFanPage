@@ -17,6 +17,94 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\100-Club-Group-2-131101PAFC.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\100-Club-Group-2-131101PAFC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\112b4e72-354e-49b7-967f-fb7a33a832a9.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\112b4e72-354e-49b7-967f-fb7a33a832a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\201cf9b3-a350-4c61-855d-a5ebafb4322e.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\201cf9b3-a350-4c61-855d-a5ebafb4322e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\665e9ef5-4313-42b2-a142-d320622cace6.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\665e9ef5-4313-42b2-a142-d320622cace6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\8c5000fa-4fc5-48c9-b1b6-5c1bef4debca.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\8c5000fa-4fc5-48c9-b1b6-5c1bef4debca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\a600abab-cc4f-465f-b9ba-5a0254bcbe77.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\a600abab-cc4f-465f-b9ba-5a0254bcbe77.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\ac4b406a-a9a2-44f2-9523-098f0c470465.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\ac4b406a-a9a2-44f2-9523-098f0c470465.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\arsenal_1948_brochure.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\arsenal_1948_brochure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\arsenetrophy_crop_north.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\arsenetrophy_crop_north.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\chapman_herbert.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\chapman_herbert.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\dd33ehu-90139df1-1e49-49b8-831f-8fb39028d528.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\dd33ehu-90139df1-1e49-49b8-831f-8fb39028d528.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\dreamteam_9_henry.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\dreamteam_9_henry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\https___paininthearsenal.com_wp-content_uploads_getty-images_2018_08_1227872197.jpeg",
+      "PackagePath": "staticwebassets\\images\\history\\https___paininthearsenal.com_wp-content_uploads_getty-images_2018_08_1227872197.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\maxresdefault.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\maxresdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\wenger_trophies.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\wenger_trophies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\history\\woolwich_arsenal_1890.jpg",
+      "PackagePath": "staticwebassets\\images\\history\\woolwich_arsenal_1890.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\honours\\Podcast-August-7.jpg",
+      "PackagePath": "staticwebassets\\images\\honours\\Podcast-August-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\honours\\champions_2004.jpg",
+      "PackagePath": "staticwebassets\\images\\honours\\champions_2004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\honours\\cupwinnerscup_1994.jpg",
+      "PackagePath": "staticwebassets\\images\\honours\\cupwinnerscup_1994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\honours\\fairs_cup_mee_0.jpg",
+      "PackagePath": "staticwebassets\\images\\honours\\fairs_cup_mee_0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\honours\\leaguecup_1993_2.jpg",
+      "PackagePath": "staticwebassets\\images\\honours\\leaguecup_1993_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\honours\\team_96.jpg",
+      "PackagePath": "staticwebassets\\images\\honours\\team_96.jpg"
+    },
+    {
       "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\match\\00a4d26a-9d84-4737-ad16-8cf01cddc2da.png",
       "PackagePath": "staticwebassets\\images\\match\\00a4d26a-9d84-4737-ad16-8cf01cddc2da.png"
     },
@@ -91,6 +179,82 @@
     {
       "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\match\\westhamunited.png",
       "PackagePath": "staticwebassets\\images\\match\\westhamunited.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\26b9dc69-9337-47e3-bef1-61ecf99c43ab.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\26b9dc69-9337-47e3-bef1-61ecf99c43ab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\2788a5f9-fd14-4515-bb4a-041cc7c6a3b3.png",
+      "PackagePath": "staticwebassets\\images\\news\\2788a5f9-fd14-4515-bb4a-041cc7c6a3b3.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\3ee49414-1078-4ea0-b952-d300d935a05e.png",
+      "PackagePath": "staticwebassets\\images\\news\\3ee49414-1078-4ea0-b952-d300d935a05e.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\4aa1cd43-faf2-4da0-bdce-625b4ce6133d.png",
+      "PackagePath": "staticwebassets\\images\\news\\4aa1cd43-faf2-4da0-bdce-625b4ce6133d.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\4c14199a-3393-4e66-94d9-c4acf843a0b4.png",
+      "PackagePath": "staticwebassets\\images\\news\\4c14199a-3393-4e66-94d9-c4acf843a0b4.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\79fce731-aabb-43dd-b275-5b3d5aa5fede.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\79fce731-aabb-43dd-b275-5b3d5aa5fede.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\Arteta-press-conference.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\Arteta-press-conference.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\U21_BHAh_1920x1080.png",
+      "PackagePath": "staticwebassets\\images\\news\\U21_BHAh_1920x1080.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\a65160c6-ba94-42eb-b063-3693e612f084.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\a65160c6-ba94-42eb-b063-3693e612f084.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\arteta-moyes.png",
+      "PackagePath": "staticwebassets\\images\\news\\arteta-moyes.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\balogun-goal-reims-brest.png",
+      "PackagePath": "staticwebassets\\images\\news\\balogun-goal-reims-brest.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\ccd0aa49-ea43-425d-b1e3-08dfeb59a868.png",
+      "PackagePath": "staticwebassets\\images\\news\\ccd0aa49-ea43-425d-b1e3-08dfeb59a868.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\ff5ee48f-303d-46d5-ac81-0391682b0819.png",
+      "PackagePath": "staticwebassets\\images\\news\\ff5ee48f-303d-46d5-ac81-0391682b0819.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\henry (1).png",
+      "PackagePath": "staticwebassets\\images\\news\\henry (1).png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\henry.png",
+      "PackagePath": "staticwebassets\\images\\news\\henry.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\rosiak-celeb-man-city.png",
+      "PackagePath": "staticwebassets\\images\\news\\rosiak-celeb-man-city.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\saiba-clap-sporting.png",
+      "PackagePath": "staticwebassets\\images\\news\\saiba-clap-sporting.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\wienroither celebration.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\wienroither celebration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\news\\wolfsburg arsenal.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\wolfsburg arsenal.jpg"
     },
     {
       "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\player\\010e7c61-d6bb-4bcd-917a-7a52c00a86fd.png",
@@ -179,6 +343,62 @@
     {
       "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\player\\d888bdae-b0c9-4bf5-bebd-609a8cc347c3.jpg",
       "PackagePath": "staticwebassets\\images\\player\\d888bdae-b0c9-4bf5-bebd-609a8cc347c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\player\\squad-photo-2022-23.png",
+      "PackagePath": "staticwebassets\\images\\player\\squad-photo-2022-23.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\1645518759309.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsors\\1645518759309.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\Acronis_Logo.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\Acronis_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\Adidas_Logo.svg.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\Adidas_Logo.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\Ball-logo-B323320B49-seeklogo.com.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\Ball-logo-B323320B49-seeklogo.com.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\DrinkPrime_6.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsors\\DrinkPrime_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\Emirates-Logo-1999.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsors\\Emirates-Logo-1999.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\Pixstory-logo-v2.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\Pixstory-logo-v2.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\asd.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\asd.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\etoro-logo-sq-copy-2.jpg",
+      "PackagePath": "staticwebassets\\images\\sponsors\\etoro-logo-sq-copy-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\png-transparent-fly-emirates-logo-the-emirates-group-dubai-airshow-airline-l-miscellaneous-cdr-text.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\png-transparent-fly-emirates-logo-the-emirates-group-dubai-airshow-airline-l-miscellaneous-cdr-text.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\socios-com-logo-vector.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\socios-com-logo-vector.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\sportsbet-io-vector-logo.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\sportsbet-io-vector-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\images\\sponsors\\visit_rwanda_logo_new.png",
+      "PackagePath": "staticwebassets\\images\\sponsors\\visit_rwanda_logo_new.png"
     },
     {
       "Id": "C:\\Users\\skivo\\Desktop\\C#\\ArsenalFanPage\\ArsenalFanPage\\wwwroot\\js\\site.js",

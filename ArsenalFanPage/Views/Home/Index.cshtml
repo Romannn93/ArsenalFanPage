@@ -1,8 +1,193 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<ArsenalFanPage.Models.Match>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container p-3">
+	<div class="row">
+		<div class="col-9 header-home">
+			<div class="header-news">
+				<div class="header-news-img">
+					<a asp-controller="NewsList" asp-action="Index">
+						<img src="~/images/news/arteta-moyes.png" style="width: 500px; height: 300px" class="img-news"/>
+					</a>
+				</div>
+				<div class="header-news-text1">
+					<a asp-controller="NewsList" asp-action="Index" class="asd1">
+						<p class="asdp1">News</p>
+					</a>
+					<a asp-controller="NewsList" asp-action="Index" class="asd2">
+						<p class="asdp1">Arteta on Moyes: "It's more than respect"</p>
+					</a>
+					<a asp-controller="NewsList" asp-action="Index" class="asd3">
+						<p class="asdp1">Ahead of Sunday’s meeting with former boss David Moyes, 
+							Mikel Arteta has given an insight into the impact the West Ham manager
+							has had on his career as a player, and now as a coach.</p>
+					</a>
+				</div>
+			</div>
+
+			<div class="header-youtube row">
+				@*<partial name="Indexxx"/>*@
+				<p style="color: #8B0000; margin: 25px 0 25px 230px; font-size: 25px">Last Arsenal matches reviews</p>
+				<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <iframe width="850" height="450" src="https://www.youtube.com/embed/utGwTGT63y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <iframe  width="850" height="450" src="https://www.youtube.com/embed/O7Y12YbnBi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <iframe width="850" height="450" src="https://www.youtube.com/embed/v_bkUR9PSKg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<p style="color: #8B0000; margin: 25px 0 25px 280px; font-size: 25px">Inside Arsenal training</p>
+				<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<iframe width="850" height="450" src="https://www.youtube.com/embed/1GhBQjW0nfY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+<iframe width="850" height="450" src="https://www.youtube.com/embed/RRzmGUWVWno?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+<iframe width="850" height="450" src="https://www.youtube.com/embed/RN-EuhvuAsk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+			</div>
+
+			<div class="header-history-team row">
+				<div class="history-img">
+					<a asp-controller="HistoryList" asp-action="Index">
+						<p class="text-history-team">History</p>
+						<img src="~/images/history/dreamteam_9_henry.jpg" style="width: 400px" class="img-history"/>
+					</a>
+					<a asp-controller="Team" asp-action="Index">
+						<p class="text-history-team">Team 2022/2023</p>
+						<img src="~/images/player/squad-photo-2022-23.png" style="width: 400px" class="img-history"/>
+					</a>
+				</div>
+			</div>
+			<div class="trophies row">
+				<p><i class="bi bi-trophy trophy-icon"></i>&nbsp; Arsenal Trophies</p>
+			</div>
+			<div class="header-history-team row">
+				<div class="history-img">
+					<a asp-controller="Trophies" asp-action="Index">
+						<img src="~/images/history/wenger_trophies.jpg" style="width: 400px" class="img-history"/>
+					</a>
+					<a asp-controller="Trophies" asp-action="Index">
+						<img src="~/images/history/maxresdefault.jpg" style="width: 400px" class="img-history"/>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-3 info-matches">
+			<div class="info-matches-img">
+				<img src="~/images/match/arsenal-1.png" class="img-logo-matches"/>
+			</div>
+			<div class="matchhhees">
+				<div class="row matches-stats">
+					@foreach(var match in Model)
+					{
+						<div class="card-header col-12 mt-5">
+				
+							<div class="row text-dark">
+								<div class="d-flex justify-content-between">
+									<div>
+										<img src="@match.LogoTeam1" width="100%"/>
+									</div>
+									<div>
+										<img src="@match.LogoTeam2" width="100%"/>
+									</div>
+								</div>
+							</div>
+			
+							<div class="row">
+								<div>
+									<a style="font-size: 18px" class="btn btn-light form-control" asp-route-playerId="@match.Id">
+												@match.Team1 &nbsp;- &nbsp;@match.Team2
+									</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="p-2 text-dark"> &nbsp; &nbsp; @match.DateTime  |  @match.Stadium</div>
+							</div>
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="sponsors" style="margin-bottom: 50px">
+	<a href="https://www.adidas.com/us" style="margin-right: 10px">
+		<img src="~/images/sponsors/Adidas_Logo.svg.png" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.emirates.com/uk/english/" style="margin-right: 10px">
+		<img src="~/images/sponsors/Emirates-Logo-1999.jpg" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.visitrwanda.com/" style="margin-right: 10px">
+		<img src="~/images/sponsors/visit_rwanda_logo_new.png" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.acronis.com/en-gb/" style="margin-right: 10px">
+		<img src="~/images/sponsors/Acronis_Logo.png" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.ball.com/" style="margin-right: 10px">
+		<img src="~/images/sponsors/Ball-logo-B323320B49-seeklogo.com.png" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.etoro.com/" style="margin-right: 10px">
+		<img src="~/images/sponsors/etoro-logo-sq-copy-2.jpg" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.socios.com/" style="margin-right: 10px">
+		<img src="~/images/sponsors/socios-com-logo-vector.png" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://www.pixstory.com/" style="margin-right: 10px">
+		<img src="~/images/sponsors/Pixstory-logo-v2.png" style="width: 100px" class="img-sponsors"/>
+	</a>
+	<a href="https://drinkprime.uk/" style="margin-right: 10px">
+		<img src="~/images/sponsors/DrinkPrime_6.jpg" style="width: 100px" class="img-sponsors"/>
+	</a>
+	
+
 </div>

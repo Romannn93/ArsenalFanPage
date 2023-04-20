@@ -13,7 +13,7 @@ namespace ArsenalFanPage.Repository
         public Repository(ApplicationDbContext db)
         {
             _db = db;
-			_db.DetailsMatch.Include(u => u.Match);
+			//_db.DetailsMatch.Include(u => u.Match);
 			this.dbSet = _db.Set<T>();
         }
         public void Add(T entity)
@@ -50,16 +50,16 @@ namespace ArsenalFanPage.Repository
             query = query.Where(filter);
             return query.FirstOrDefault();
         }
-		public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
-		{
-			IQueryable<T> query = dbSet;
-			query = query.Where(filter);
-			//if (includeProperties != null)
-			//{
-				query = query.Include(includeProperties);
-			//}
-			return query.FirstOrDefault();
-		}
+		//public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
+		//{
+		//	IQueryable<T> query = dbSet;
+		//	query = query.Where(filter);
+		//	//if (includeProperties != null)
+		//	//{
+		//		query = query.Include(includeProperties);
+		//	//}
+		//	return query.FirstOrDefault();
+		//}
 
 		public void Remove(T entity)
         {

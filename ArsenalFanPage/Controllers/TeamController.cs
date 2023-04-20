@@ -8,7 +8,7 @@ namespace ArsenalFanPage.Controllers
     public class TeamController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        public TeamController(IUnitOfWork unitOfWork)
+		public TeamController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }

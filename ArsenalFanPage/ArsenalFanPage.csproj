@@ -23,7 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Example\" />
     <Folder Include="wwwroot\images\match\" />
+    <Folder Include="wwwroot\images\history\" />
+    <Folder Include="wwwroot\images\honours\" />
+    <Folder Include="wwwroot\images\news\" />
     <Folder Include="wwwroot\images\player\" />
   </ItemGroup>
 

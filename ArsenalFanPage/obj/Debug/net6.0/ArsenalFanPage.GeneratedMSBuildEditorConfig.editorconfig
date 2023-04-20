@@ -16,8 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\skivo\Desktop\C#\ArsenalFanPage\ArsenalFanPage
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/DetailsHistory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc0hpc3RvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/DetailsNews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc05ld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Details/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/HistoryList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeUxpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/History/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/History/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/History/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/History/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Home/Index.cshtml]
@@ -52,6 +80,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/NewsList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0xpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Player/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,6 +120,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Shared/example.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGV4YW1wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Shared/Indexxx.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4eHguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -82,6 +138,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/Trophies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJvcGhpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/skivo/Desktop/C\#/ArsenalFanPage/ArsenalFanPage/Views/_ViewImports.cshtml]

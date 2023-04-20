@@ -14,12 +14,12 @@ namespace ArsenalFanPage.Controllers
 			_unitOfWork = unitOfWork;
 			_hostEnvironment = hostEnvironment;
 		}
-		public IActionResult Index(int matchId, string includeProperties)
+		public IActionResult Index(int matchId/*, string includeProperties*/)
 		{
 			DetailsMatch detailsMatchObj = new()
 			{
 				MatchId = matchId,
-				Match = _unitOfWork.Match.GetFirstOrDefault(u => u.Id == matchId, includeProperties: "Match")
+				Match = _unitOfWork.Match.GetFirstOrDefault(u => u.Id == matchId/*, includeProperties: "Match"*/)
 			};
 			return View(detailsMatchObj);
 		}
